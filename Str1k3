@@ -38,7 +38,7 @@ echo -e "\n$YELLOW Have you installed the required packages yet? Y or N : " $RES
 read answer
 if [ $answer == "N" ] || [ $answer == "n" ]
 then
-apt-get -y install tor dnsmasq hostapd isc-dhcp-server privoxy 
+apt-get -y install tor dnsmasq hostapd isc-dhcp-server privoxy net-tools macchanger
 else
 echo -e "\n$GREEN ALL requirements statisfied" $RESETCOLOR
 fi
