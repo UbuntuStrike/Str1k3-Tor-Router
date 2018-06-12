@@ -164,7 +164,7 @@ ifconfig wlan0 down
 edit_interfaces(){
 echo -e "\n$RED Replacing interfaces, original saved at /etc/network/interfaces.bak" $RESETCOLOR
 sleep 1
-cp /etc/network/interfaces /etc/network/interfaces.back
+cp /etc/network/interfaces /etc/network/interfaces.bak
 cp interfaces /etc/network/interfaces
 }
 
