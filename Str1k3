@@ -372,8 +372,8 @@ ifconfig $wlan 192.168.42.1
 sleep 5
 hostapd  /etc/hostapd/hostapd.conf 
 #echo -n "\n[ctrl + c] to move process to background"
-echo -e "\n$YELLOW THIS WILL CONTINUE RUNNING IN THE BACKGROUND.... ENJOY!" $RESETCOLOR
-sleep 7
+#echo -e "\n$YELLOW THIS WILL CONTINUE RUNNING IN THE BACKGROUND.... ENJOY!" $RESETCOLOR
+sleep 3
 }
 
 stop_hotspot(){
