@@ -1,5 +1,5 @@
 # Str1k3-Tor-Router
-!!!!!!!!!!!!! SOON WILL FIX TO WORK ON NEWER SYSTEMS!!!!!!!!!!!!!!!
+UPDATED FOR NEWER SYSTEMS
 
 
 A script to automate the creation of a "TOR" router on Debian based systems including Raspberry Pi and install the required tools to do so.
@@ -20,9 +20,11 @@ chmod +x Str1k3
 
 and follow instructions from there!
 
-To STOP and revert settings open another root terminal 
+To STOP and revert settings open another root terminal type "ctrl+c" 
 
-./Str1k3 and ENTER "stop" when prompted
+then
+
+./Str1k3 and ENTER "RESTORE" when prompted
 
 ********************************************************************************************************************************
 KNOWN ISSUES :                                                                                                                 
