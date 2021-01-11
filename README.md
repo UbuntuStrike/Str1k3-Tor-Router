@@ -14,9 +14,9 @@ cd Str1k3-Tor-Router
 
 sudo su 
 
-chmod +x Str1k3
+chmod +x Str1k3.sh
 
-./Str1k3
+./Str1k3.sh
 
 and follow instructions from there!
 
@@ -24,7 +24,7 @@ To STOP and revert settings open another root terminal type "ctrl+c"
 
 then
 
-./Str1k3 and ENTER "RESTORE" when prompted
+./Str1k3.sh and ENTER "RESTORE" when prompted
 
 ********************************************************************************************************************************
 KNOWN ISSUES :                                                                                                                 
