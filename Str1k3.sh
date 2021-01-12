@@ -110,7 +110,7 @@ echo -e "\n$GREEN Spoofing WiFi Mac Address...\n"
 	sleep 5
 	rfkill unblock all
 } 
-
+ 
 #stop macchanger eth0
 
 ethmac_stop(){
